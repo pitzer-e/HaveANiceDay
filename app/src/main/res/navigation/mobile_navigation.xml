@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_monday">
+
+
+    <!-- This is the dashboard fragment. He hasn't caused any trouble, so I've
+         let him hangout so far -->
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.pitzerhaveanice.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <!--This is the Monday navigation fragment -->
+    <fragment
+        android:id="@+id/navigation_monday"
+        android:name="com.example.pitzerhaveanice.ui.monday.MondayFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/monday_fragment" />
+
+    <!--This is the Tuesday navigation fragment -->
+    <fragment
+        android:id="@+id/navigation_tuesday"
+        android:name="com.example.pitzerhaveanice.ui.tuesday.TuesdayFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/tuesday_fragment" />
+
+    <!--This is the Wednesday navigation fragment -->
+    <fragment
+        android:id="@+id/navigation_wednesday"
+        android:name="com.example.pitzerhaveanice.ui.Wednesday.WednesdayFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/wednesday_fragment" />
+
+    <!--This is the Thursday navigation fragment -->
+    <fragment
+        android:id="@+id/navigation_thursday"
+        android:name="com.example.pitzerhaveanice.ui.thursday.ThursdayFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/thursday_fragment" />
+
+    <!--This is the Friday navigation fragment -->
+    <fragment
+        android:id="@+id/navigation_friday"
+        android:name="com.example.pitzerhaveanice.ui.friday.FridayFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/friday_fragment" />
+
+</navigation>

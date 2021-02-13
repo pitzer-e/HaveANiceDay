@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- This is the Monday menu item -->
+    <item
+        android:id="@+id/navigation_monday"
+        android:icon="@drawable/monday"
+        android:title="Mon" />
+
+    <!-- This is the Tuesday menu item -->
+    <item
+        android:id="@+id/navigation_tuesday"
+        android:icon="@drawable/tuesday"
+        android:title="Tue" />
+
+    <!-- This is the Wednesday menu item -->
+    <item
+        android:id="@+id/navigation_wednesday"
+        android:icon="@drawable/wednesday"
+        android:title="Wed" />
+
+    <!-- This is the Thursday menu item -->
+    <item
+        android:id="@+id/navigation_thursday"
+        android:icon="@drawable/thursday"
+        android:title="Thu" />
+
+    <!-- This is the Friday menu item -->
+    <item
+        android:id="@+id/navigation_friday"
+        android:icon="@drawable/friday"
+        android:title="Fri" />
+
+
+</menu>
